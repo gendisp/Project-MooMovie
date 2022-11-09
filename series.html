@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Flix
+    </title>
+
+    <!--Link eksternal bootstrap-->
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+         <link rel="preconnect" href="https://fonts.gstatic.com">
+         <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+         <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+         <link rel="stylesheet" href="grid.css">
+         <link rel="stylesheet" href="app.css">
+</head>
+
+<body style="background-color: black;">
+    <!--Navbar-->
+    <nav class="navbar navbar-dark navbar-expand-lg bg-black sticky-top">
+        <div class="container">
+         <a class="navbar-brand" href="#"><i class='bx bx-movie-play bx-tada main-color'></i>Moo<span class="main-color">Mo</span>vie</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            </ul>
+            <ul class="navbar-nav me-end mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="indexx.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="series.html">Series</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Genre
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="romance.html">Romance</a></li>
+                      <li><a class="dropdown-item" href="cartoon.html">Cartoon</a></li>
+                      <li><a class="dropdown-item" href="horror.html">Horror</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="btn btn-outline-danger" type="button" href="login.html">Login</a>
+                     
+                  </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- END NAV -->
+    <!-- LATEST SERIES SECTION -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                Hot Release
+            </div>
+            <div class="movies-slide carousel-nav-center owl-carousel">
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/series/new/1-Dahmer.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title" style="color:white">
+                            Dahmer - Monster: The Jeffrey Dahmer Story (2022)
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>18 +</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10 Episode</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/series/new/2-cyberpunk.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title" style="color:white">
+                            Cyberpunk: Edgerunners
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>17+</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10 Episode</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/series/new/3-Lost Ollie.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title" style="color:white">
+                            Lost Ollie
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.8</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>12+</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>4 Episode</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/series/new/4-Ozarks4.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title" style="color:white">
+                            Ozark : Season 4
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>18+</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>14 Episode</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/series/new/5-Lincoln.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title"style="color:white">
+                            The Lincoln Lawyer Series
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.7</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>17+</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10 Episode</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/series/new/6-Archive81.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title" style="color:white">
+                            Archive 81
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.3</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>18+</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>8 Episode</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/series/new/7-BattleKitty.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title" style="color:white">
+                            Battle Kitty
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.6</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>17+</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>9 Episode</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+            </div>
+        </div>
+    </div>
+    <!-- END LATEST SERIES SECTION -->
+
+    <!-- Based on True Story -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                Based on True Story
+            </div>
+            <div class="movies-slide carousel-nav-center owl-carousel">
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/series/true/1-crown.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title" style="color:white">
+                            The Crown : Season 4
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.6</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>18+</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10 Episode</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/series/true/2-narcos.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title" style="color:white">
+                            Narcos : Season 3
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.8</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>18+</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10 Episode</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/series/true/3-girlboss.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title" style="color:white">
+                            Girlboss
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>18+</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>13 Episode</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/series/true/4-inventing.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title" style="color:white">
+                            Inventing Anna
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>18+</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>9 Episode</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/series/true/5-allmylife.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title" style="color:white">
+                            All My Life
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>6.3</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>13+</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>1 Episode</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+            </div>
+        </div>
+    </div>
+    <!-- BEST OF ALL TIME -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                Best Of all Time
+            </div>
+            <div class="movies-slide carousel-nav-center owl-carousel">
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/series/bridgerton.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title" style="color:white">
+                            Bridgerton
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>18+</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>2 Season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/series/fargo.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title" style="color:white">
+                            Fargo
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.9</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>4 Season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/series/stranger-thing.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title" style="color:white">
+                            Stranger Thing
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.7</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>4 Season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/series/the-falcon.webp" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title" style="color:white">
+                            The Falcon and the Winter Soldier
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.2</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>1 Season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/series/ricknmorthty.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title" style="color:white">
+                            Rick And Morthy
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.2</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>13+</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>6 Season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/series/the-wonder-years.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title" style="color:white">
+                            The Wonder Years
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>12+</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>6 Season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+            </div>
+        </div>
+    </div>
+    <!-- END LATEST SERIES SECTION -->
+
+    <!-- FOOTER SECTION -->
+    <footer class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-md-6 col-sm-12">
+                    <div class="content">
+                        <a href="#" class="logo">
+                            <i class='bx bx-movie-play bx-tada main-color'></i>Fl<span class="main-color">i</span>x
+                        </a>
+                        <p>
+                            deskripsi
+                        </p>
+                        <div class="social-list">
+                            <a href="#" class="social-item">
+                                <i class="bx bxl-facebook"></i>
+                            </a>
+                            <a href="#" class="social-item">
+                                <i class="bx bxl-twitter"></i>
+                            </a>
+                            <a href="#" class="social-item">
+                                <i class="bx bxl-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 col-md-6 col-sm-12">
+                    <div class="row">
+                        <div class="col-3 col-md-6 col-sm-6">
+                            <div class="content">
+                                <p><b>Flix</b></p>
+                                <ul class="footer-menu">
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">My profile</a></li>
+                                    <li><a href="#">Pricing plans</a></li>
+                                    <li><a href="#">Contacts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-sm-6">
+                            <div class="content">
+                                <p><b>Browse</b></p>
+                                <ul class="footer-menu">
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">My profile</a></li>
+                                    <li><a href="#">Pricing plans</a></li>
+                                    <li><a href="#">Contacts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-sm-6">
+                            <div class="content">
+                                <p><b>Help</b></p>
+                                <ul class="footer-menu">
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">My profile</a></li>
+                                    <li><a href="#">Pricing plans</a></li>
+                                    <li><a href="#">Contacts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-sm-6">
+                            <div class="content">
+                                <p><b>Download app</b></p>
+                                <ul class="footer-menu">
+                                    <li>
+                                        <a href="#">
+                                            <img src="../images/google-play.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="../images/app-store.png" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER SECTION -->
+
+    <!-- COPYRIGHT SECTION -->
+    <div class="copyright">
+        Copyright 2021 <a href="indexx.html" target="_blank">
+            MooMovie</a>
+    </div>
+    <!-- END COPYRIGHT SECTION -->
+
+    <!-- SCRIPT -->
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- OWL CAROUSEL -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <!-- APP SCRIPT -->
+    <script src="app.js"></script>
+</body>
+</html>
